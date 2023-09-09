@@ -1,0 +1,12 @@
+docker build . -t node-http
+docker run -p 8000:8000 -d node-http
+
+
+docker ps
+docker stop [CONTAINER ID]
+
+
+http://localhost:8000
+http://localhost:8000/hello
+http://localhost:8000/hello?kind=1
+http://localhost:8000/hello?kind=2
